@@ -4511,6 +4511,15 @@
 		(uuid "56c2f040-4601-4be1-8a10-e7a9efffcb1b")
 	)
 	(bus_entry
+		(at 121.92 24.13)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e1381c-3952-433f-981d-6c6828d1cb26")
+	)
+	(bus_entry
 		(at 77.47 107.95)
 		(size -2.54 2.54)
 		(stroke
@@ -4917,6 +4926,16 @@
 			(type default)
 		)
 		(uuid "08fb681e-2004-4aa9-a634-8329e2767d9d")
+	)
+	(wire
+		(pts
+			(xy 87.63 26.67) (xy 119.38 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "094f7f1c-1902-4773-aeda-a6e149c6980f")
 	)
 	(wire
 		(pts
@@ -5867,6 +5886,16 @@
 			(type default)
 		)
 		(uuid "8894a54a-0e05-40f0-9f8c-b1e9e799f849")
+	)
+	(bus
+		(pts
+			(xy 121.92 24.13) (xy 121.92 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8968d5dc-cf33-438b-98c5-41786fd07f80")
 	)
 	(bus
 		(pts
@@ -6980,7 +7009,7 @@
 	)
 	(bus
 		(pts
-			(xy 121.92 21.59) (xy 121.92 27.94)
+			(xy 121.92 21.59) (xy 121.92 24.13)
 		)
 		(stroke
 			(width 0)
@@ -7137,6 +7166,16 @@
 			(justify left bottom)
 		)
 		(uuid "359416f9-9715-47bd-b06b-6db61e20a494")
+	)
+	(label "GND"
+		(at 87.63 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a192b5a-837b-43d6-9035-6cb090a1e196")
 	)
 	(label "D13"
 		(at 133.35 60.96 0)
